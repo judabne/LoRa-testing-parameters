@@ -65,17 +65,6 @@ void setup() {
 }
 
 void loop() {
-  /*if (millis() - lastSendTime > interval) {
-    String message = "HeLoRa World! ";   // send a message
-    message += msgCount;
-    sendMessage(message);
-    Serial.println("Sending " + message);
-    lastSendTime = millis();            // timestamp the message
-    interval = random(2000) + 1000;    // 2-3 seconds
-    msgCount++;
-    
-  }*/
-  //disabled sender
 
   // parse for a packet, and call onReceive with the result:
   onReceive(LoRa.parsePacket());
