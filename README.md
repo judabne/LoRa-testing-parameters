@@ -17,4 +17,4 @@ The parameter change algorithm is designed to happen once at the receiver for ev
 even with multiple signal-change messages issued. Therefore, using the relay, or increasing the signal-change messages
 sent should not cause conflicts.
 
-Judabne
+Judy Abi Nehme
